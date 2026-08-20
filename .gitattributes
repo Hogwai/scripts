@@ -1,0 +1,27 @@
+# Normalize line endings
+* text=auto
+
+# Shell scripts must keep LF line endings (required for shebang execution)
+*.sh text eol=lf
+
+# Mark executable scripts
+*.sh text eol=lf
+
+# Documentation
+*.md text
+
+# Binary files (never touch)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.tgz binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
